@@ -1,0 +1,3 @@
+[submodule "apps/pi_fm_rds/PiFmRds"]
+	path = apps/pi_fm_rds/PiFmRds
+	url = https://github.com/ChristopheJacquet/PiFmRds

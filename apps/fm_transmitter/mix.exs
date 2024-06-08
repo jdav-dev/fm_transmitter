@@ -45,6 +45,7 @@ defmodule FmTransmitter.MixProject do
 
       # Dependencies for all targets except :host
       {:nerves_pack, "~> 0.7.0", targets: @all_targets},
+      {:pi_fm_rds, in_umbrella: true, targets: @all_targets},
 
       # Dependencies for specific targets
       # NOTE: It's generally low risk and recommended to follow minor version
